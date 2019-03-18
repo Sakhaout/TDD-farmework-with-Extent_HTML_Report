@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="1" total="4" passed="0">
+<testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="CRMPRO Test suite" duration-ms="126919" started-at="2019-03-17T21:33:41Z" finished-at="2019-03-17T21:35:48Z">
+  <suite name="CRMPRO Test suite" duration-ms="135887" started-at="2019-03-17T22:26:51Z" finished-at="2019-03-17T22:29:07Z">
     <groups>
     </groups>
-    <test name="CRMPRO testing feature" duration-ms="126919" started-at="2019-03-17T21:33:41Z" finished-at="2019-03-17T21:35:48Z">
-      <class name="com.crmpro.page_testClass.LogInPageTest">
-        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="18667" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:28Z">
-        </test-method>
-        <test-method status="FAIL" signature="LogInTest(java.lang.String, java.lang.String)" name="LogInTest" duration-ms="20064" started-at="2019-03-17T21:35:28Z" finished-at="2019-03-17T21:35:48Z">
+    <test name="CRMPRO testing feature" duration-ms="135887" started-at="2019-03-17T22:26:51Z" finished-at="2019-03-17T22:29:07Z">
+      <class name="com.crmpro.page_testClass.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="52264" started-at="2019-03-17T22:26:51Z" finished-at="2019-03-17T22:27:44Z">
           <params>
             <param index="0">
               <value>
@@ -22,18 +20,38 @@
               </value>
             </param>
           </params>
+        </test-method>
+        <test-method status="PASS" signature="varifyContactLink()" name="varifyContactLink" duration-ms="4544" started-at="2019-03-17T22:27:44Z" finished-at="2019-03-17T22:27:48Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="1012" started-at="2019-03-17T22:27:48Z" finished-at="2019-03-17T22:27:49Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="22962" started-at="2019-03-17T22:27:49Z" finished-at="2019-03-17T22:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sakhaout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakhaout8]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="varifyLogout()" name="varifyLogout" duration-ms="2974" started-at="2019-03-17T22:28:12Z" finished-at="2019-03-17T22:28:15Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<CRMPRO> but was:<www.crmpro.com>]]>
+              <![CDATA[expected:<https://classic.crmpro.com/index.html> but was:<https://www.crmpro.com/index.html>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<CRMPRO> but was:<www.crmpro.com>
+              <![CDATA[java.lang.AssertionError: expected:<https://classic.crmpro.com/index.html> but was:<https://www.crmpro.com/index.html>
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:489)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:171)
 	at org.testng.Assert.assertEquals(Assert.java:181)
-	at com.crmpro.page_testClass.LogInPageTest.LogInTest(LogInPageTest.java:42)
+	at com.crmpro.page_testClass.HomePageTest.varifyLogout(HomePageTest.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,11 +85,9 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="232" started-at="2019-03-17T21:35:48Z" finished-at="2019-03-17T21:35:48Z">
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="541" started-at="2019-03-17T22:28:15Z" finished-at="2019-03-17T22:28:16Z">
         </test-method>
-      </class>
-      <class name="com.crmpro.page_testClass.HomePageTest">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T21:33:41Z" finished-at="2019-03-17T21:33:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="23067" started-at="2019-03-17T22:28:16Z" finished-at="2019-03-17T22:28:39Z">
           <params>
             <param index="0">
               <value>
@@ -84,70 +100,30 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchFrameException">
-            <message>
-              <![CDATA[No frame element found by name or id mainpanel
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-15D6S6Q', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-15D6S6Q', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
-	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:613)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
-	at org.testng.TestRunner.privateRun(TestRunner.java:757)
-	at org.testng.TestRunner.run(TestRunner.java:608)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
-	at org.testng.TestNG.run(TestNG.java:999)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception>
         </test-method>
-        <test-method status="SKIP" signature="varifyContactLink()" name="varifyContactLink" duration-ms="3" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
+        <test-method status="PASS" signature="varifyTable()" name="varifyTable" duration-ms="4149" started-at="2019-03-17T22:28:39Z" finished-at="2019-03-17T22:28:43Z">
         </test-method>
-        <test-method status="SKIP" signature="closeDown()" name="closeDown" is-config="true" duration-ms="0" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="801" started-at="2019-03-17T22:28:43Z" finished-at="2019-03-17T22:28:44Z">
         </test-method>
-        <test-method status="SKIP" signature="varifyLogout()" name="varifyLogout" duration-ms="1" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
+      </class>
+      <class name="com.crmpro.page_testClass.LogInPageTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="12164" started-at="2019-03-17T22:28:44Z" finished-at="2019-03-17T22:28:56Z">
         </test-method>
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
+        <test-method status="PASS" signature="LogInTest(java.lang.String, java.lang.String)" name="LogInTest" duration-ms="10776" started-at="2019-03-17T22:28:56Z" finished-at="2019-03-17T22:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sakhaout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakhaout8]]>
+              </value>
+            </param>
+          </params>
         </test-method>
-        <test-method status="SKIP" signature="closeDown()" name="closeDown" is-config="true" duration-ms="0" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
-        </test-method>
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String)" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
-        </test-method>
-        <test-method status="SKIP" signature="closeDown()" name="closeDown" is-config="true" duration-ms="0" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
-        </test-method>
-        <test-method status="SKIP" signature="varifyTable()" name="varifyTable" duration-ms="0" started-at="2019-03-17T21:35:09Z" finished-at="2019-03-17T21:35:09Z">
+        <test-method status="PASS" signature="closeDown()" name="closeDown" is-config="true" duration-ms="504" started-at="2019-03-17T22:29:07Z" finished-at="2019-03-17T22:29:07Z">
         </test-method>
       </class>
     </test>

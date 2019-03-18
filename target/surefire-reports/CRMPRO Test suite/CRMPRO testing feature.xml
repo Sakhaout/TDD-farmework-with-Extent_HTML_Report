@@ -1,54 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-15D6S6Q" name="com.crmpro.page_testClass.HomePageTest" tests="4" failures="1" timestamp="18 Mar 2019 01:35:48 GMT" time="126.919" errors="0">
-  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <failure type="org.openqa.selenium.NoSuchFrameException" message="No frame element found by name or id mainpanel
-Build info: version: &amp;apos;3.6.0&amp;apos;, revision: &amp;apos;6fbf3ec767&amp;apos;, time: &amp;apos;2017-09-27T15:28:36.4Z&amp;apos;
-System info: host: &amp;apos;DESKTOP-15D6S6Q&amp;apos;, ip: &amp;apos;192.168.1.8&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
-Driver info: driver.version: unknown">
-      <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
-Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-15D6S6Q', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
-	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-... Removed 24 stack frames]]>
-    </failure>
-  </testcase>
-  <testcase name="@AfterMethod closeDown" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="@AfterMethod closeDown" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="@AfterMethod closeDown" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="varifyContactLink" time="0.003" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="varifyLogout" time="0.001" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="varifyTable" time="0.0" classname="com.crmpro.page_testClass.HomePageTest">
-    <skipped/>
-  </testcase>
-  <testcase name="LogInTest" time="20.064" classname="com.crmpro.page_testClass.LogInPageTest">
-    <failure type="java.lang.AssertionError" message="expected:&amp;lt;CRMPRO&amp;gt; but was:&amp;lt;www.crmpro.com&amp;gt;">
-      <![CDATA[java.lang.AssertionError: expected:<CRMPRO> but was:<www.crmpro.com>
-	at com.crmpro.page_testClass.LogInPageTest.LogInTest(LogInPageTest.java:42)
+<testsuite hostname="DESKTOP-15D6S6Q" name="com.crmpro.page_testClass.HomePageTest" tests="4" failures="1" timestamp="18 Mar 2019 02:29:08 GMT" time="135.887" errors="0">
+  <testcase name="varifyContactLink" time="4.544" classname="com.crmpro.page_testClass.HomePageTest"/>
+  <testcase name="varifyLogout" time="2.974" classname="com.crmpro.page_testClass.HomePageTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;https://classic.crmpro.com/index.html&amp;gt; but was:&amp;lt;https://www.crmpro.com/index.html&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<https://classic.crmpro.com/index.html> but was:<https://www.crmpro.com/index.html>
+	at com.crmpro.page_testClass.HomePageTest.varifyLogout(HomePageTest.java:71)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
@@ -59,4 +15,6 @@ Driver info: driver.version: unknown
 ... Removed 27 stack frames]]>
     </failure>
   </testcase>
+  <testcase name="varifyTable" time="4.149" classname="com.crmpro.page_testClass.HomePageTest"/>
+  <testcase name="LogInTest" time="10.776" classname="com.crmpro.page_testClass.LogInPageTest"/>
 </testsuite>

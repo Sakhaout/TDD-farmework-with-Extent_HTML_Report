@@ -12,16 +12,14 @@
     <classes>
       <class name="com.crmpro.page_testClass.HomePageTest">
         <methods>
+          <include name="closeDown"/>
           <include name="setUp"/>
           <include name="varifyLogout"/>
-          <include name="varifyTable"/>
-          <include name="varifyContactLink"/>
         </methods>
       </class>
       <class name="com.crmpro.page_testClass.LogInPageTest">
         <methods>
           <include name="closeDown"/>
-          <include name="LogInTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class>

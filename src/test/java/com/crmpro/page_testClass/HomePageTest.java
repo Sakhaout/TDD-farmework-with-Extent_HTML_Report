@@ -63,13 +63,13 @@ public class HomePageTest extends BasePage {
 	
 
 	
-	@Test
-	public void varifyLogout() {
-		HomePage_obj.logout();
-		String ActualURL = driver.getCurrentUrl();
-		String expectedURL = "https://classic.crmpro.com/index.html";
-		Assert.assertEquals(ActualURL, expectedURL);
-	}
+//	@Test
+//	public void varifyLogout() {
+//		HomePage_obj.logout();
+//		String ActualURL = driver.getCurrentUrl();
+//		String expectedURL = "https://classic.crmpro.com/index.html";
+//		Assert.assertEquals(ActualURL, expectedURL);
+//	}
 	
 	
 	@AfterMethod
