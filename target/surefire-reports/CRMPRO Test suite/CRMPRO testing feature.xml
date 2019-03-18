@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-15D6S6Q" name="com.crmpro.page_testClass.HomePageTest" tests="4" failures="1" timestamp="18 Mar 2019 02:29:08 GMT" time="135.887" errors="0">
-  <testcase name="varifyContactLink" time="4.544" classname="com.crmpro.page_testClass.HomePageTest"/>
-  <testcase name="varifyLogout" time="2.974" classname="com.crmpro.page_testClass.HomePageTest">
-    <failure type="java.lang.AssertionError" message="expected:&amp;lt;https://classic.crmpro.com/index.html&amp;gt; but was:&amp;lt;https://www.crmpro.com/index.html&amp;gt;">
-      <![CDATA[java.lang.AssertionError: expected:<https://classic.crmpro.com/index.html> but was:<https://www.crmpro.com/index.html>
-	at com.crmpro.page_testClass.HomePageTest.varifyLogout(HomePageTest.java:71)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-... Removed 27 stack frames]]>
-    </failure>
-  </testcase>
-  <testcase name="varifyTable" time="4.149" classname="com.crmpro.page_testClass.HomePageTest"/>
-  <testcase name="LogInTest" time="10.776" classname="com.crmpro.page_testClass.LogInPageTest"/>
+<testsuite hostname="DESKTOP-15D6S6Q" name="com.crmpro.page_testClass.HomePageTest" tests="3" failures="0" timestamp="18 Mar 2019 03:07:21 GMT" time="64.32" errors="0">
+  <testcase name="varifyContactLink" time="2.508" classname="com.crmpro.page_testClass.HomePageTest"/>
+  <testcase name="varifyTable" time="2.416" classname="com.crmpro.page_testClass.HomePageTest"/>
+  <testcase name="LogInTest" time="5.6" classname="com.crmpro.page_testClass.LogInPageTest"/>
 </testsuite>

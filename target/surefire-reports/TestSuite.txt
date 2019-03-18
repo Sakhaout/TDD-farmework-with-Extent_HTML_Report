@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 147.207 s <<< FAILURE! - in TestSuite
-varifyLogout(com.crmpro.page_testClass.HomePageTest)  Time elapsed: 3.044 s  <<< FAILURE!
-java.lang.AssertionError: expected:<https://classic.crmpro.com/index.html> but was:<https://www.crmpro.com/index.html>
-	at com.crmpro.page_testClass.HomePageTest.varifyLogout(HomePageTest.java:71)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.815 s - in TestSuite

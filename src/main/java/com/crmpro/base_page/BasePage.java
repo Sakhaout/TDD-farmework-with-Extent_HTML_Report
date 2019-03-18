@@ -21,7 +21,7 @@ public class BasePage {
 	
 	public BasePage() {
 		try {
-			String properties_path = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\Extent_report\\src\\main\\java\\com\\crmpro\\properties\\config.properties";
+			String properties_path = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\TDD-farmework-with-Extent_HTML_Report\\src\\main\\java\\com\\crmpro\\properties\\config.properties";
 			properties_obj = new Properties();
 			FileInputStream file_input = new FileInputStream(properties_path);
 			properties_obj.load(file_input);
@@ -33,8 +33,8 @@ public class BasePage {
 	
 	public static void initialition() {
 		String browser = properties_obj.getProperty("browser"); //Get properties from properties file.
-		String path_gekoDriiver = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\Extent_report\\src\\main\\resource\\driver\\geckodriver.exe";
-		String path_chromeDriver = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\Extent_report\\src\\main\\resource\\driver\\chromedriver.exe";
+		String path_gekoDriiver = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\TDD-farmework-with-Extent_HTML_Report\\src\\main\\resource\\driver\\geckodriver.exe";
+		String path_chromeDriver = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\TDD-farmework-with-Extent_HTML_Report\\src\\main\\resource\\driver\\chromedriver.exe";
 		log.info("\tLaunching Browser!!!");
 		if(browser.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", path_chromeDriver);
