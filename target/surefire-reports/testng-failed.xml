@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [CRMPRO Test suite]">
+  <parameter name="password" value="Sakhaout8"/>
+  <parameter name="userName" value="sakhaout"/>
+  <listeners>
+    <listener class-name="com.crmpro.extent_report.ExtentReportNG"/>
+  </listeners>
+  <test name="CRMPRO testing feature(failed)" preserve-order="false">
+    <parameter name="password" value="Sakhaout8"/>
+    <parameter name="userName" value="sakhaout"/>
+    <classes>
+      <class name="com.crmpro.page_testClass.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="varifyLogout"/>
+          <include name="varifyTable"/>
+          <include name="varifyContactLink"/>
+        </methods>
+      </class>
+      <class name="com.crmpro.page_testClass.LogInPageTest">
+        <methods>
+          <include name="closeDown"/>
+          <include name="LogInTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

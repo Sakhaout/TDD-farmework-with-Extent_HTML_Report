@@ -1,0 +1,5 @@
+com\crmpro\utilites\Action.class
+com\crmpro\page_class\LogInPage.class
+com\crmpro\base_page\BasePage.class
+com\crmpro\extent_report\ExtentReportNG.class
+com\crmpro\page_class\HomePage.class

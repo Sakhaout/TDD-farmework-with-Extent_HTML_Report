@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRMPRO Test suite">
+
+
+	<listeners>
+		<listener class-name="com.crmpro.extent_report.ExtentReportNG" />
+	</listeners>
+
+	<parameter name="userName" value="sakhaout" />
+	<parameter name="password" value="Sakhaout8" />
+
+	<test name="CRMPRO testing feature">
+
+		<classes>
+			<class name="com.crmpro.page_testClass.LogInPageTest" />
+			<class name ="com.crmpro.page_testClass.HomePageTest"/>
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
