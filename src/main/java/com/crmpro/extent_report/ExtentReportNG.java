@@ -68,6 +68,7 @@ public class ExtentReportNG extends BasePage implements IReporter{
 				}
 				if(status.equals(LogStatus.FAIL)) {
 					test.log(LogStatus.INFO, "Screenshot of failed test "+test.addScreenCapture(TestUtile.screenshot_final_path));
+					System.out.println("DONE");
 				}
 				else {
 					test.log(status, "Test " + status.toString().toLowerCase() + "ed");
