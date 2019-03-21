@@ -1,17 +1,11 @@
 package com.crmpro.extent_report;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -26,13 +20,17 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+/*
+ * This class will generate Extent HTML Report along with the testNG class.
+ * Also it will take screenshot for failure test, and show it on the Extent Report.
+ * */
+
 public class ExtentReportNG extends BasePage implements IReporter{
 	private ExtentReports extent;
 	public ExtentTest extentTest;
 
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,String outputDirectory) {
-		//extent = new ExtentReports(outputDirectory + File.separator + "Extent.html", true);
 		extent = new ExtentReports(System.getProperty("user.dir")+"/test-output/ExtentReport.html", true);
 
 
@@ -88,11 +86,4 @@ public class ExtentReportNG extends BasePage implements IReporter{
 	}
 	
 	
-	
-		
-
-
-
-
-
 }

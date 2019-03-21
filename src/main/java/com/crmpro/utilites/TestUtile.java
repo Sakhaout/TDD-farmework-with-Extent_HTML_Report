@@ -25,7 +25,8 @@ import com.crmpro.base_page.BasePage;
 public class TestUtile extends BasePage {
 	
 	private static Logger log = Logger.getLogger(TestUtile.class);
-	public static String screenshot_path = "C:\\Users\\Hossain Sakhaout\\Desktop\\MavenProject\\TDD-farmework-with-Extent_HTML_Report\\screenshot\\";
+	
+	public static String screenshot_path;
 	public static String screenshot_final_path;
 	public TestUtile() {
 		super();
@@ -36,6 +37,7 @@ public class TestUtile extends BasePage {
 	
 	//This method will take Screenshot
 	public static void takeScreenshot(String fileName){
+		screenshot_path = System.getProperty("user.dir") + "\\screenshot\\";
 		log.info("\tTaking screenshot of "+fileName);
 		//Take screenshot by using TakesScreenshot interface and store it into file.
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

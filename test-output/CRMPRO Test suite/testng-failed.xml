@@ -21,7 +21,6 @@
           <include name="closeDown"/>
           <include name="setUp"/>
           <include name="varifyTable"/>
-          <include name="varifyContactLink"/>
         </methods>
       </class> <!-- com.crmpro.page_testClass.HomePageTest -->
     </classes>

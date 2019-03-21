@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,20 +108,6 @@
                     </div> <!-- method-list-content failed suite-CRMPRO_Test_suite -->
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-CRMPRO_Test_suite" class="hide-methods skipped suite-CRMPRO_Test_suite"> (hide)</a> <!-- hide-methods skipped suite-CRMPRO_Test_suite -->
-                      <a href="#" panel-name="suite-CRMPRO_Test_suite" class="show-methods skipped suite-CRMPRO_Test_suite"> (show)</a> <!-- show-methods skipped suite-CRMPRO_Test_suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-CRMPRO_Test_suite">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CRMPRO_Test_suite" title="com.crmpro.page_testClass.HomePageTest" hash-for-method="varifyTable">varifyTable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-CRMPRO_Test_suite -->
-                  </li>
-                  <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
                       <a href="#" panel-name="suite-CRMPRO_Test_suite" class="hide-methods passed suite-CRMPRO_Test_suite"> (hide)</a> <!-- hide-methods passed suite-CRMPRO_Test_suite -->
@@ -131,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-CRMPRO_Test_suite" title="com.crmpro.page_testClass.HomePageTest" hash-for-method="varifyContactLink">varifyContactLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CRMPRO_Test_suite" title="com.crmpro.page_testClass.HomePageTest" hash-for-method="varifyTable">varifyTable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CRMPRO_Test_suite -->
@@ -157,75 +148,14 @@
                   </a> <!-- LogInTest(sakhaout, Sakhaout8) -->
                   <span class="method-name">LogInTest</span>
                   <span class="parameters">(sakhaout, Sakhaout8)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=72.0.3626.121)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;HOSSAIN&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\HOSSAI~1\AppData\Local\Temp\scoped_dir4572_12822}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f0a87055d7cc4c43a89695f9f5e820ea
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:314)
-	at com.crmpro.page_testClass.LogInPageTest.LogInTest(LogInPageTest.java:41)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CRMPRO_Test_suite-class-failed -->
-          <div class="suite-CRMPRO_Test_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.crmpro.page_testClass.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="varifyTable">
-                  </a> <!-- varifyTable -->
-                  <span class="method-name">varifyTable</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=72.0.3626.121)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
-System info: host: &apos;HOSSAIN&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:56491}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387), userDataDir=C:\Users\HOSSAI~1\AppData\Local\Temp\scoped_dir7796_6642}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bdd7f6306f8fdaaf35a8bbedf047a2d4
-*** Element info: {Using=css selector, value=frame[name=&apos;mainpanel&apos;],iframe[name=&apos;mainpanel&apos;]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:454)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:918)
-	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
+                  <div class="stack-trace">java.lang.AssertionError: expected [CRMPR] but found [CRMPRO]
+	at com.crmpro.page_testClass.LogInPageTest.LogInTest(LogInPageTest.java:42)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CRMPRO_Test_suite-class-skipped -->
+          </div> <!-- suite-CRMPRO_Test_suite-class-failed -->
           <div class="suite-CRMPRO_Test_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -237,6 +167,13 @@ Session ID: bdd7f6306f8fdaaf35a8bbedf047a2d4
                   <a name="varifyContactLink">
                   </a> <!-- varifyContactLink -->
                   <span class="method-name">varifyContactLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="varifyTable">
+                  </a> <!-- varifyTable -->
+                  <span class="method-name">varifyTable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -254,6 +191,7 @@ Session ID: bdd7f6306f8fdaaf35a8bbedf047a2d4
   &lt;parameter name=&quot;password&quot; value=&quot;Sakhaout8&quot;/&gt;
   &lt;parameter name=&quot;userName&quot; value=&quot;sakhaout&quot;/&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crmpro.extent_report.CustomListener&quot;/&gt;
     &lt;listener class-name=&quot;com.crmpro.extent_report.ExtentReportNG&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;CRMPRO testing feature&quot;&gt;
@@ -303,20 +241,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LogInTest')
 data.setCell(0, 2, 'com.crmpro.page_testClass.LogInPageTest')
-data.setCell(0, 3, 17687);
+data.setCell(0, 3, 17570);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'varifyContactLink')
+data.setCell(1, 1, 'varifyTable')
 data.setCell(1, 2, 'com.crmpro.page_testClass.HomePageTest')
-data.setCell(1, 3, 2509);
+data.setCell(1, 3, 3023);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'varifyTable')
+data.setCell(2, 1, 'varifyContactLink')
 data.setCell(2, 2, 'com.crmpro.page_testClass.HomePageTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 2330);
 window.suiteTableData['CRMPRO_Test_suite']= { tableData: data, tableDiv: 'times-div-CRMPRO_Test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-CRMPRO_Test_suite">
               </div> <!-- times-div-CRMPRO_Test_suite -->
             </div> <!-- times-div -->
@@ -351,35 +289,39 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LogInTest(sakhaout, Sakhaout8)</span>
-                <span class="method-start">45810 ms</span>
+                <span class="method-start">20398 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">closeDown</span>
-                <span class="method-start">63575 ms</span>
+                <span class="method-start">38773 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crmpro.page_testClass.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(sakhaout, Sakhaout8)</span>
-                <span class="method-start">65653 ms</span>
+                <span class="method-start">40917 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">varifyContactLink</span>
-                <span class="method-start">97116 ms</span>
+                <span class="method-start">62401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDown</span>
-                <span class="method-start">99626 ms</span>
+                <span class="method-start">64731 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp(sakhaout, Sakhaout8)</span>
-                <span class="method-start">100388 ms</span>
+                <span class="method-start">65094 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">varifyTable</span>
+                <span class="method-start">80653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDown</span>
+                <span class="method-start">83680 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
