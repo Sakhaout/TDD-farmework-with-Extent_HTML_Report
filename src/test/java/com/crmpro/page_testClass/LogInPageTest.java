@@ -39,7 +39,7 @@ public class LogInPageTest extends BasePage{
 	public void LogInTest(String userName, String password){
 		loginPage_Obj.logInFunction(userName, password);
 		String title =driver.getTitle();
-		Assert.assertEquals(title , "CRMPRO");
+		Assert.assertEquals(title , "CRMPR");
 	}
 	
 	

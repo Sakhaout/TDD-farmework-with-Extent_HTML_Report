@@ -4,6 +4,7 @@
 
 
 	<listeners>
+		<listener class-name="com.crmpro.extent_report.CustomListener"/>
 		<listener class-name="com.crmpro.extent_report.ExtentReportNG" />
 	</listeners>
 

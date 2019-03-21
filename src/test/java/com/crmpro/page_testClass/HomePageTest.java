@@ -24,7 +24,7 @@ public class HomePageTest extends BasePage {
 	
 	private HomePage HomePage_obj;
 	private LogInPage login_obj;
-	private Logger log = Logger.getLogger(HomePageTest.class);
+	private static Logger log = Logger.getLogger(HomePageTest.class);
 
 
 	public HomePageTest(){
