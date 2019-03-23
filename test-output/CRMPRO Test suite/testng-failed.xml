@@ -16,13 +16,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.crmpro.page_testClass.LogInPageTest -->
-      <class name="com.crmpro.page_testClass.HomePageTest">
-        <methods>
-          <include name="closeDown"/>
-          <include name="setUp"/>
-          <include name="varifyTable"/>
-        </methods>
-      </class> <!-- com.crmpro.page_testClass.HomePageTest -->
     </classes>
   </test> <!-- CRMPRO testing feature(failed) -->
 </suite> <!-- Failed suite [CRMPRO Test suite] -->

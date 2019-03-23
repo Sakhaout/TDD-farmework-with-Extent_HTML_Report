@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,23 +108,23 @@
                     </div> <!-- method-list-content failed suite-CRMPRO_Test_suite -->
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-CRMPRO_Test_suite" class="hide-methods passed suite-CRMPRO_Test_suite"> (hide)</a> <!-- hide-methods passed suite-CRMPRO_Test_suite -->
-                      <a href="#" panel-name="suite-CRMPRO_Test_suite" class="show-methods passed suite-CRMPRO_Test_suite"> (show)</a> <!-- show-methods passed suite-CRMPRO_Test_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-CRMPRO_Test_suite" class="hide-methods skipped suite-CRMPRO_Test_suite"> (hide)</a> <!-- hide-methods skipped suite-CRMPRO_Test_suite -->
+                      <a href="#" panel-name="suite-CRMPRO_Test_suite" class="show-methods skipped suite-CRMPRO_Test_suite"> (show)</a> <!-- show-methods skipped suite-CRMPRO_Test_suite -->
                     </span>
-                    <div class="method-list-content passed suite-CRMPRO_Test_suite">
+                    <div class="method-list-content skipped suite-CRMPRO_Test_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-CRMPRO_Test_suite" title="com.crmpro.page_testClass.HomePageTest" hash-for-method="varifyContactLink">varifyContactLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-CRMPRO_Test_suite" title="com.crmpro.page_testClass.HomePageTest" hash-for-method="varifyTable">varifyTable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-CRMPRO_Test_suite -->
+                    </div> <!-- method-list-content skipped suite-CRMPRO_Test_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -148,7 +148,7 @@
                   </a> <!-- LogInTest(sakhaout, Sakhaout8) -->
                   <span class="method-name">LogInTest</span>
                   <span class="parameters">(sakhaout, Sakhaout8)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [CRMPR] but found [CRMPRO]
+                  <div class="stack-trace">java.lang.AssertionError: expected [CRMPR] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
 	at com.crmpro.page_testClass.LogInPageTest.LogInTest(LogInPageTest.java:42)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
@@ -156,9 +156,9 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-CRMPRO_Test_suite-class-failed -->
-          <div class="suite-CRMPRO_Test_suite-class-passed">
+          <div class="suite-CRMPRO_Test_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.crmpro.page_testClass.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -167,6 +167,14 @@
                   <a name="varifyContactLink">
                   </a> <!-- varifyContactLink -->
                   <span class="method-name">varifyContactLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;HOSSAIN&apos;, ip: &apos;10.11.2.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -174,10 +182,18 @@
                   <a name="varifyTable">
                   </a> <!-- varifyTable -->
                   <span class="method-name">varifyTable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;HOSSAIN&apos;, ip: &apos;10.11.2.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CRMPRO_Test_suite-class-passed -->
+          </div> <!-- suite-CRMPRO_Test_suite-class-skipped -->
         </div> <!-- panel CRMPRO_Test_suite -->
         <div panel-name="test-xml-CRMPRO_Test_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -241,20 +257,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LogInTest')
 data.setCell(0, 2, 'com.crmpro.page_testClass.LogInPageTest')
-data.setCell(0, 3, 17570);
+data.setCell(0, 3, 680);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'varifyTable')
+data.setCell(1, 1, 'varifyContactLink')
 data.setCell(1, 2, 'com.crmpro.page_testClass.HomePageTest')
-data.setCell(1, 3, 3023);
+data.setCell(1, 3, 4);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'varifyContactLink')
+data.setCell(2, 1, 'varifyTable')
 data.setCell(2, 2, 'com.crmpro.page_testClass.HomePageTest')
-data.setCell(2, 3, 2330);
+data.setCell(2, 3, 0);
 window.suiteTableData['CRMPRO_Test_suite']= { tableData: data, tableDiv: 'times-div-CRMPRO_Test_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 684 ms</span>
               <div id="times-div-CRMPRO_Test_suite">
               </div> <!-- times-div-CRMPRO_Test_suite -->
             </div> <!-- times-div -->
@@ -265,6 +281,13 @@ return data;
             <span class="header-content">Reporter output for CRMPRO Test suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LogInTest(sakhaout, Sakhaout8)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a target = "_blank" href= C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png>screenshot</a></span>
+                <span class="reporter-method-output"><a target = '_blank' href = 'C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png' ><img height=200, width=200, src="C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png"alt=""/><img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-CRMPRO_Test_suite" class="panel">
@@ -289,39 +312,21 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LogInTest(sakhaout, Sakhaout8)</span>
-                <span class="method-start">20398 ms</span>
+                <span class="method-start">11604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDown</span>
-                <span class="method-start">38773 ms</span>
+                <span class="method-start">13660 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crmpro.page_testClass.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp(sakhaout, Sakhaout8)</span>
-                <span class="method-start">40917 ms</span>
+                <span class="method-start">13876 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">varifyContactLink</span>
-                <span class="method-start">62401 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDown</span>
-                <span class="method-start">64731 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(sakhaout, Sakhaout8)</span>
-                <span class="method-start">65094 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">varifyTable</span>
-                <span class="method-start">80653 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDown</span>
-                <span class="method-start">83680 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

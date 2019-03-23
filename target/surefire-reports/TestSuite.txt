@@ -1,8 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.068 s <<< FAILURE! - in TestSuite
-LogInTest(com.crmpro.page_testClass.LogInPageTest)  Time elapsed: 17.635 s  <<< FAILURE!
-java.lang.AssertionError: expected [CRMPR] but found [CRMPRO]
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 67.461 s <<< FAILURE! - in TestSuite
+LogInTest(com.crmpro.page_testClass.LogInPageTest)  Time elapsed: 0.696 s  <<< FAILURE!
+java.lang.AssertionError: expected [CRMPR] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
 	at com.crmpro.page_testClass.LogInPageTest.LogInTest(LogInPageTest.java:42)
+
+setUp(com.crmpro.page_testClass.HomePageTest)  Time elapsed: 52.049 s  <<< FAILURE!
+org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
 

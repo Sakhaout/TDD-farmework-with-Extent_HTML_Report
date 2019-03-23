@@ -1,11 +1,5 @@
 package com.crmpro.extent_report;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -13,13 +7,11 @@ import org.testng.Reporter;
 
 import com.crmpro.base_page.BasePage;
 import com.crmpro.utilites.TestUtile;
-import com.relevantcodes.extentreports.LogStatus;
 
 
 
 public class CustomListener extends BasePage implements ITestListener {
 	
-	private TestUtile testUtile_obj = new TestUtile();
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -31,6 +23,8 @@ public class CustomListener extends BasePage implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
+		System.out.println(result.getMethod().getMethodName() +" (PASSED)	");		
+
 
 
 		
@@ -40,6 +34,10 @@ public class CustomListener extends BasePage implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		System.out.println(result.getMethod().getMethodName()+" (FAILED)");
 		TestUtile.takeScreenshot(result.getMethod().getMethodName());
+		String path = TestUtile.screenshot_final_path;
+		Reporter.log("<a target = \"_blank\" href= "+path+">screenshot</a>");
+		String path_1 = ("<a target = '_blank' href = '"+path+"' ><img height=200, width=200, src=\"" +path+"\"alt=\"\"/><img></a>");
+		Reporter.log(path_1);
 
 
 

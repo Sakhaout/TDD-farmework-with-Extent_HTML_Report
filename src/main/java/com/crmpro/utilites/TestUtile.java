@@ -15,8 +15,6 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 import com.crmpro.base_page.BasePage;
 
@@ -26,18 +24,19 @@ public class TestUtile extends BasePage {
 	
 	private static Logger log = Logger.getLogger(TestUtile.class);
 	
-	public static String screenshot_path;
+	//public static String screenshot_path = System.getProperty("user.dir") + "\\screenshot\\";
+	public static String screenshot_path ="C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//";
 	public static String screenshot_final_path;
-	public TestUtile() {
-		super();
-	}
-
+	
 	public static int Page_Load_TimeOut = 30;
 	public static int Implicitly_Wait = 20;
 	
+	public TestUtile() {
+		super();
+	}
+	
 	//This method will take Screenshot
 	public static void takeScreenshot(String fileName){
-		screenshot_path = System.getProperty("user.dir") + "\\screenshot\\";
 		log.info("\tTaking screenshot of "+fileName);
 		//Take screenshot by using TakesScreenshot interface and store it into file.
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -47,7 +46,7 @@ public class TestUtile extends BasePage {
 			screenshot_final_path = screenshot_path+fileName+".png";
 			log.info("\tScreenshot has been taken.");
 		} catch (IOException e) {
-			log.error(e.getStackTrace() +"\\tFailed to take screenshot.");
+			log.error(e.getStackTrace() +"\tFailed to take screenshot.");
 		}
 
 	}
@@ -96,7 +95,7 @@ public class TestUtile extends BasePage {
 	
 	
 		//This method will handle all windows and pop-up windows.
-	public final void windowsHandle(int windowsNumber) {
+	public static void windowsHandle(int windowsNumber) {
 		String windows = null;
 			//Store all windows in a set.
 		Set<String>windowHandles = driver.getWindowHandles();
@@ -111,7 +110,7 @@ public class TestUtile extends BasePage {
 	
 	
 	//this method allow move to between frames in a webpage. 
-	public void switchTofream(String frameName) {
+	public static void switchTofream(String frameName) {
 		driver.switchTo().frame(frameName);
 	}
 	

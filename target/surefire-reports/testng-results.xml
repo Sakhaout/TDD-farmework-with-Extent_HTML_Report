@@ -1,67 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="2" failed="1" ignored="0" total="3" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[<a target = "_blank" href= C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png>screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = '_blank' href = 'C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png' ><img height=200, width=200, src="C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png"alt=""/><img></a>]]>
+    </line>
   </reporter-output>
-  <suite name="CRMPRO Test suite" duration-ms="84031" started-at="2019-03-21T12:07:23Z" finished-at="2019-03-21T12:08:47Z">
+  <suite name="CRMPRO Test suite" duration-ms="63745" started-at="2019-03-23T05:43:00Z" finished-at="2019-03-23T05:44:03Z">
     <groups>
     </groups>
-    <test name="CRMPRO testing feature" duration-ms="84031" started-at="2019-03-21T12:07:23Z" finished-at="2019-03-21T12:08:47Z">
-      <class name="com.crmpro.page_testClass.HomePageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.page_testClass.HomePageTest@6276ae34]" name="setUp" is-config="true" duration-ms="21484" started-at="2019-03-21T08:08:04Z" finished-at="2019-03-21T08:08:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sakhaout]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sakhaout8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="varifyContactLink()[pri:0, instance:com.crmpro.page_testClass.HomePageTest@6276ae34]" name="varifyContactLink" duration-ms="2330" started-at="2019-03-21T08:08:26Z" finished-at="2019-03-21T08:08:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyContactLink -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.page_testClass.HomePageTest@6276ae34]" name="closeDown" is-config="true" duration-ms="359" started-at="2019-03-21T08:08:28Z" finished-at="2019-03-21T08:08:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.page_testClass.HomePageTest@6276ae34]" name="setUp" is-config="true" duration-ms="15559" started-at="2019-03-21T08:08:28Z" finished-at="2019-03-21T08:08:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sakhaout]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sakhaout8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="varifyTable()[pri:0, instance:com.crmpro.page_testClass.HomePageTest@6276ae34]" name="varifyTable" duration-ms="3023" started-at="2019-03-21T08:08:44Z" finished-at="2019-03-21T08:08:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyTable -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.page_testClass.HomePageTest@6276ae34]" name="closeDown" is-config="true" duration-ms="291" started-at="2019-03-21T08:08:47Z" finished-at="2019-03-21T08:08:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDown -->
-      </class> <!-- com.crmpro.page_testClass.HomePageTest -->
+    <test name="CRMPRO testing feature" duration-ms="63745" started-at="2019-03-23T05:43:00Z" finished-at="2019-03-23T05:44:03Z">
       <class name="com.crmpro.page_testClass.LogInPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crmpro.page_testClass.LogInPageTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="20398" started-at="2019-03-21T08:07:23Z" finished-at="2019-03-21T08:07:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crmpro.page_testClass.LogInPageTest@6276ae34]" name="setUp" is-config="true" duration-ms="11604" started-at="2019-03-23T01:43:00Z" finished-at="2019-03-23T01:43:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="LogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.page_testClass.LogInPageTest@39fb3ab6]" name="LogInTest" duration-ms="17570" started-at="2019-03-21T08:07:44Z" finished-at="2019-03-21T08:08:01Z">
+        <test-method status="FAIL" signature="LogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.page_testClass.LogInPageTest@6276ae34]" name="LogInTest" duration-ms="680" started-at="2019-03-23T01:43:11Z" finished-at="2019-03-23T01:43:12Z">
           <params>
             <param index="0">
               <value>
@@ -76,10 +32,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [CRMPR] but found [CRMPRO]]]>
+              <![CDATA[expected [CRMPR] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [CRMPR] but found [CRMPRO]
+              <![CDATA[java.lang.AssertionError: expected [CRMPR] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -120,13 +76,193 @@
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a target = "_blank" href= C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png>screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = '_blank' href = 'C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png' ><img height=200, width=200, src="C://Users//Hossain Sakhaout//Desktop//MavenProject//TDD-farmework-with-Extent_HTML_Report//screenshot//LogInTest.png"alt=""/><img></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- LogInTest -->
-        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.page_testClass.LogInPageTest@39fb3ab6]" name="closeDown" is-config="true" duration-ms="2139" started-at="2019-03-21T08:08:02Z" finished-at="2019-03-21T08:08:04Z">
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:com.crmpro.page_testClass.LogInPageTest@6276ae34]" name="closeDown" is-config="true" duration-ms="212" started-at="2019-03-23T01:43:13Z" finished-at="2019-03-23T01:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDown -->
       </class> <!-- com.crmpro.page_testClass.LogInPageTest -->
+      <class name="com.crmpro.page_testClass.HomePageTest">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.page_testClass.HomePageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="49765" started-at="2019-03-23T01:43:14Z" finished-at="2019-03-23T01:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sakhaout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakhaout8]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="varifyContactLink()[pri:0, instance:com.crmpro.page_testClass.HomePageTest@7946e1f4]" name="varifyContactLink" duration-ms="4" started-at="2019-03-23T01:44:03Z" finished-at="2019-03-23T01:44:03Z">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyContactLink -->
+        <test-method status="SKIP" signature="varifyTable()[pri:0, instance:com.crmpro.page_testClass.HomePageTest@7946e1f4]" name="varifyTable" duration-ms="0" started-at="2019-03-23T01:44:03Z" finished-at="2019-03-23T01:44:03Z">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id mainpanel
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'HOSSAIN', ip: '10.11.2.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:925)
+	at com.crmpro.page_testClass.HomePageTest.setUp(HomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyTable -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.crmpro.page_testClass.HomePageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-23T01:44:03Z" finished-at="2019-03-23T01:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.crmpro.page_testClass.HomePageTest -->
     </test> <!-- CRMPRO testing feature -->
   </suite> <!-- CRMPRO Test suite -->
 </testng-results>
