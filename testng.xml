@@ -8,8 +8,8 @@
 		<listener class-name="com.crmpro.extent_report.ExtentReportNG" />
 	</listeners>
 
-	<parameter name="userName" value="sakhaout" />
-	<parameter name="password" value="Sakhaout8" />
+	<parameter name="userName" value="USERNAME" />
+	<parameter name="password" value="PASSWORD" />
 
 	<test name="CRMPRO testing feature">
 
